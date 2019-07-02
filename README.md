@@ -11,9 +11,11 @@ Note, under windows you may choose x32, x64, under linux you have only x64.
 
 # About tests
 
-Read about tests: https://codeforces.com/blog/entry/43696
+Read about [`MemoryTest.java`](MemoryTest.java) and test 17: https://codeforces.com/blog/entry/43696
 
 **Download and unzip test 17**: https://assets.codeforces.com/files/633E/17.zip
+
+Read about NEERC2018.QF.D [`test 36`](36) [`MusinQFMain.java`](MusinQFMain.java): https://codeforces.com/blog/entry/62722#comment-468291
 
 # Run script
 
@@ -29,7 +31,6 @@ For windows check file **win_dirs**, it should contain all directories to your j
 Just change part of the script
 
 ```
-function runJavaJar2 {
 	#flags="-XX:NewRatio=5 -XX:+AggressiveOpts"
 	#flags="-XX:NewRatio=5"
 	flags="-XX:NewRatio=5 -XX:+UseSerialGC -XX:TieredStopAtLevel=1"
