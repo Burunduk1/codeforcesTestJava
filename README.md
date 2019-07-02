@@ -1,9 +1,9 @@
 # Install java, which you want to test
 
-https://adoptopenjdk.net/releases.html?variant=openjdk12&jvmVariant=hotspot#x32_win
-https://jdk.java.net/archive/
-https://jdk.java.net/12/
-https://jdk.java.net/13/
+* https://adoptopenjdk.net/releases.html?variant=openjdk12&jvmVariant=hotspot#x32_win
+* https://jdk.java.net/archive/
+* https://jdk.java.net/12/
+* https://jdk.java.net/13/
 
 I prefer java8, java11, java12 to test.
 
@@ -17,10 +17,10 @@ Read about tests: https://codeforces.com/blog/entry/43696
 
 # Run script
 
-Script is not very safe... so read it before running ;)
+The script is not very safe... so read it before running ;)
 
-For linux use **bash go.sh**
-For windows use **bash go_win.sh**
+* For linux use **bash go.sh**
+* For windows use **bash go_win.sh**
 
 For windows check file **win_dirs**, it should contain all directories to your java versions.
 
